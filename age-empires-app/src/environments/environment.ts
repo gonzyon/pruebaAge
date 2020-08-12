@@ -12,7 +12,8 @@ export const environment = {
   apiEndpointCivilizations: '/civilizations',
   apiEndpointUnits: '/units',
   apiEndpointStructures: '/structures',
-  apiEndpointTecnologies: '/technologies'
+  apiEndpointTecnologies: '/technologies',
+  apiUrlDb: 'http://localhost:3000/people'
 };
 
 /*

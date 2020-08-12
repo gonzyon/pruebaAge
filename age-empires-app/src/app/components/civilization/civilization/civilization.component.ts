@@ -29,6 +29,8 @@ export class CivilizationComponent implements OnInit {
   //Method to consume the HTTP method
   public getCivilizations(){
     this.service.getCivilizations().subscribe( (response: CivilizationsResponse[]) => {
+      //Know this is no valid to do because people can use this information to hack your site
+      //Only for Test uses
       console.log(response);
       
     })

@@ -6,13 +6,13 @@
 </div>
 <div id="video-containmer">
     <div id="video-fondo">
-        <video class="video" muted loop>
+        <video class="video" autoplay loop muted>
             <source src="../../../assets/video/Age of Empires 4 - Official Gameplay Trailer - X019.mp4#t=20,56"
                 type="video/mp4">
         </video>
     </div>
     <div id="video-sobre">
-        <video width="1000" height="500" muted loop>
+        <video width="1000" height="500" autoplay loop muted>
             <source src="../../../assets/video/Age of Empires 4 - Official Gameplay Trailer - X019.mp4#t=20,56"
                 type="video/mp4">
         </video>
@@ -25,7 +25,7 @@
         <h1>Yonathan Gonzalez</h1>
     </div>
     <app-civilization></app-civilization>
-    <a href="#" class="btn-flotante">Contactenos</a>
-    
+    <a href="#" class="btn-flotante" (click)="openDialog()">Contact us!</a>
+
 </div>
 
