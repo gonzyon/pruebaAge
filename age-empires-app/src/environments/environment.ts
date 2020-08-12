@@ -2,8 +2,17 @@
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+//Author: Yonathan Gonzalez
+
+//In this file will be hosted all URLs to connect with HTTP methods
+
 export const environment = {
-  production: false
+  production: false,
+  apiUrl: '/api/v1',
+  apiEndpointCivilizations: '/civilizations',
+  apiEndpointUnits: '/units',
+  apiEndpointStructures: '/structures',
+  apiEndpointTecnologies: '/technologies'
 };
 
 /*
